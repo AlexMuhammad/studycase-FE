@@ -11,3 +11,13 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+/* NAVBAR */
+.nav-link:hover {
+  color: #c075ea;
+}
+#navbarNavDropdown {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
