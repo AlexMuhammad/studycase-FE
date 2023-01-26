@@ -9,7 +9,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.md": "prettier --write"
+    "*": "prettier --write"
   },
   "prettier": {
     "trailingComma": "all",
