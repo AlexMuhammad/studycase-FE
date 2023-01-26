@@ -5,9 +5,10 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "lint": "prettier --check ."
+    "lint": "prettier --check .",
+    "format": "prettier --write"
   },
-  "hooks": {
-    "pre-commit": "npm test && npm run foo"
+  "devDependencies": {
+    "lint-staged": "^13.1.0"
   }
 }
