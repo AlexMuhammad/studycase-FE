@@ -12,7 +12,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write"
+      "pre-commit": "prettier --write ."
     }
   },
   "lint-staged": {
