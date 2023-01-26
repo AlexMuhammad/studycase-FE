@@ -1,14 +1,21 @@
 {
-  "dependencies": {
-    "husky": "^8.0.3",
-    "prettier": "^2.8.3"
+  "devDependencies": {
+    "husky": "^8.0.0"
   },
   "scripts": {
     "prepare": "husky install",
     "lint": "prettier --check .",
-    "format": "prettier --write"
+    "format": "prettier --write ."
   },
-  "devDependencies": {
-    "lint-staged": "^13.1.0"
+  "dependencies": {
+    "prettier": "^2.8.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier --write . && git add -A ."
+    }
+  },
+  "lint-staged": {
+    "*": "prettier --write"
   }
 }
