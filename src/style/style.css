@@ -6,6 +6,9 @@
 
 /*Import Font from Google font*/
 
+:root {
+  --primary: #c075ea;
+}
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
 body {
@@ -14,7 +17,7 @@ body {
 
 /* NAVBAR */
 .nav-link:hover {
-  color: #c075ea;
+  color: var(--primary);
 }
 #navbarNavDropdown {
   margin-top: 20px;
