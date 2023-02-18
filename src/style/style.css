@@ -15,6 +15,23 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+/* Clear default margin */
+
+h1,h2,h3,h4,h5,p,a {
+  margin: 0;
+}
+
+
+/* Color Class */
+
+.primary-color {
+  color : #C075EA;
+}
+
+.primary-bg {
+  background-color: #F7E4FF;
+}
+
 /* NAVBAR */
 .nav-link:hover {
   color: var(--primary);
@@ -23,4 +40,24 @@ body {
   margin-top: 20px;
   padding: 10px;
   text-align: center;
+}
+
+
+
+/* Sidebar Menu */
+
+.menu-active {
+  color : #C075EA;
+  background-color: #F7E4FF;
+}
+
+.sidebar img {
+  fill : gray;
+}
+
+/* icon sizing */
+
+.like-icon img,
+.comment-icon img {
+  width: 20px;
 }
