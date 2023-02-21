@@ -21,7 +21,6 @@ h1,h2,h3,h4,h5,p,a {
   margin: 0;
 }
 
-
 /* Color Class */
 
 .primary-color {
@@ -42,6 +41,10 @@ h1,h2,h3,h4,h5,p,a {
   text-align: center;
 }
 
+.navbar-logo {
+  height: 80px;
+  width: 250px;
+}
 
 
 /* Sidebar Menu */
@@ -55,9 +58,34 @@ h1,h2,h3,h4,h5,p,a {
   fill : gray;
 }
 
+.register-container{
+  height: 90vh;
+}
+
+.register-container .row {
+  width: 100%;
+}
+
 /* icon sizing */
 
 .like-icon img,
 .comment-icon img {
   width: 20px;
+}
+
+.profile-image {
+  height: 200px;
+  margin-bottom: 150px;
+}
+
+.profile-image img{
+  top: 100%;
+  height: 250px;
+  width: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-icon {
+  width: 60px;
 }
