@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DiscussMe</title>
+    <!--Import CDN From bootstrap 5.3-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--Add favicon and style.css-->
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
+    <!--? Change if need it!-->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+
+    <!--!TODO: implement Navbar component right here!-->
+    
+
+    <div class="main-content container mt-4 register-container  align-items-center justify-content-center d-flex">
+        <div class="row justify-content-center">
+            <div class="d-flex flex-column text-start col-5">
+                <a class="navbar-brand" href="#">
+                    <img
+                      src="./img/logo.png"
+                      alt="logo-discussme"
+                      class="navbar-logo"
+                    />
+                </a>
+                <p class="fs-3 fw-bold my-3">Buat Pertanyaan</p>
+                <form>
+                    <div class="mb-4">
+                      <label for="nama" class="form-label fs-5 text-secondary">Judul :</label>
+                      <input type="text" class="form-control bg-light p-3" id="input-nama" aria-describedby="namaInput" placeholder="Judul Pertanyaan">
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="exampleInputEmail1" class="form-label fs-5 text-secondary">Deskripsi :</label>
+                        <textarea class="form-control bg-light" rows="5" placeholder="Deskripsi pertanyaan" id="floatingTextarea"></textarea>
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleInputEmail1" class="form-label fs-5 text-secondary">Foto :</label>
+                      <input type="file" class="form-control bg-light p-3" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-4">
+                      <label for="nama" class="form-label fs-5 text-secondary">Tag :</label>
+                      <input type="text" class="form-control bg-light p-3" id="input-nama" aria-describedby="namaInput" placeholder="Ex: PHP , HTML">
+                    </div>
+                    
+                    <button type="submit" class="btn  primary-bg primary-color py-2 px-5 fw-bold">Submit</button>
+                  </form>
+              </div>
+        </div>
+      
+      
+      
+    </div>
+
+
+    <!--!TODO: Implement Card Profile component right here-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
